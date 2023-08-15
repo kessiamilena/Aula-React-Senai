@@ -300,7 +300,7 @@ main#lista-servicos {
     padding-bottom: 20px;
 }
 
-.servico {
+/* .servico {
     width: 85%;
     margin: 0 auto;
     padding: 15px;
@@ -350,7 +350,7 @@ main#lista-servicos {
     background-color: var(--rosa);
     color: white;
     font-weight: 600;
-}
+} */
 
 
 /* FOOTER */

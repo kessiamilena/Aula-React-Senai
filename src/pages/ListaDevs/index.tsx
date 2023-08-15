@@ -41,7 +41,7 @@ export default function ListaDevs() {
     const [listaDevsFiltrados, setListaDevsFiltrados] = useState<any[]>(devs)
 
     function buscarPorSkill(event: any) {
-        event.PreventDefault();
+        event.preventDefault();
 
         const devsFiltrados = devs.filter((dev: any) => dev.skills.includes(skillDigitada.toLocaleUpperCase()) );
 
