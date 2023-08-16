@@ -86,7 +86,7 @@ export default function ListaDevs() {
                         <div className="wrapper_lista">
                             <ul>
                                 {listaDevsFiltrados.map((dev: any, index: number) => {
-                                    return <li>
+                                    return <li key={index}>
                                         <CardDev 
                                         foto={dev.img_perfil}
                                         nome={dev.nome}

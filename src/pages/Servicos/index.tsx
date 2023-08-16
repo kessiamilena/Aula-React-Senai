@@ -15,19 +15,19 @@ function Servicos() {
             titulo: "Desenvolvimento de site institucional - Gateway de Pagamento",
             valor: "R$ 1300,00",
             descricao: "Desenvolver um site responsivo que seja utilizado como uma plataforma de apresentação do nosso gateway de pagamento. O objetivo principal deste projeto é criar um site atraente e informativo, que demonstre as funcionalidades e benefícios do nosso gateway de pagamento para potenciais clientes.",
-            techs: ["HTML", "CSS", "React"]
+            techs: ["HTML", "CSS", "REACT"]
         },
         {
             titulo: "Caixa Rápido",
             valor: "R$ 1200,00",
             descricao: "Preciso fazer um código em python para um bot do telegram. O bot será para solicitação de pagamento.",
-            techs: ["Python"]
+            techs: ["PYTHON"]
         },
         {
             titulo: "Bot telegram Pagamento",
             valor: "R$ 2400,00",
             descricao: "Preciso fazer um  software que permita ao usuário fazer o upload de seu extrato bancário em formato( ofx). Dentro do software o mesmo poderá categorizar todas as suas receitas e despesas, tendo categorias sugeridas pelo software e permitindo também personalizações. Após o lançamento de vários extratos o software irá entender que são lançamentos parecidos e fará a categorização de maneira automática, cabendo ao usuário somente categorizar as receitas e despesas que não se repetem. Após a categorização o software irá emitir gráficos e relatórios baseados na categorização das contas.",
-            techs: ["Python"]
+            techs: ["PYTHON"]
         },
     ]);
 
