@@ -10,6 +10,7 @@ import CadastroDev from './pages/CadastroDev'
 import Servicos from './pages/Servicos'
 import ListaDevs from './pages/ListaDevs'
 import PerfilUsuario from './pages/PerfilUsuario'
+import CadastroUsuario from './pages/CadastroUsuario'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
@@ -17,10 +18,11 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       <Header />
       <Routes>
         <Route path='/' element={ <Home /> }/>
-        <Route path='cadastroDev' element={ <CadastroDev /> }></Route>
-        <Route path='listaServicos' element={ <Servicos /> }></Route>
+        <Route path='cadastrodev' element={ <CadastroDev /> }></Route>
+        <Route path='listaservicos' element={ <Servicos /> }></Route>
         <Route path='listadevs' element={ <ListaDevs /> }></Route>
         <Route path='perfil/:idUsuario' element={ <PerfilUsuario />} />  {/* queryParams */}
+        <Route path='cadastrousuario' element={ <CadastroUsuario />} />
       </Routes>
       <Footer/>
     </BrowserRouter>
