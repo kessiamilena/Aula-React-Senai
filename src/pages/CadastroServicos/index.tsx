@@ -37,7 +37,7 @@ function CadastroServico() {
         formData.append("valor", valor)
         formData.append("descricao", descricao)
 
-        formData.append("hardSkills", JSON.stringify(skillsSelecionadas))
+        formData.append("techs", JSON.stringify(skillsSelecionadas))
 
         api.post("servicos", formData).then( (response) => {
             console.log(response)
