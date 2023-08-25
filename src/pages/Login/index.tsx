@@ -1,5 +1,6 @@
 //estilização
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import secureLocalStorage from "react-secure-storage";
 import api from "../../utils/api";
 import "./style.css";
@@ -7,6 +8,7 @@ import "./style.css";
 
 
 function Login() {
+    const navigate = useNavigate()
 
     const [ email, setEmail ] = useState<string>("")
     const [ senha, setSenha ] = useState<string>("")
@@ -25,6 +27,7 @@ function Login() {
             console.log(response)
 
             secureLocalStorage.setItem("user", response.data)
+            navigate("/perfil/" + response.data.user.id)
 
         }).catch( (error) => console.log(error))
     }
