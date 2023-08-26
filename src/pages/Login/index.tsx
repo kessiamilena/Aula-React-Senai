@@ -29,7 +29,12 @@ function Login() {
             secureLocalStorage.setItem("user", response.data)
             navigate("/perfil/" + response.data.user.id)
 
+            // Recarrega a página
+            navigate(0)
+
         }).catch( (error) => console.log(error))
+
+
     }
 
     return (
